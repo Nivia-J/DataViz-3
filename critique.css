@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=“UTF-8”>
+    <title> My Project</title>
+    <link rel="stylesheet" href="newstylesheet.css">
+    
+</head>
+
+<body>
+
+    <header> 
+
+        <img src="Home-images/j.png" width=300px id="nivia">
+    
+    </header>
+
+    <nav>
+  <a href="index.html">| Home</a> 
+  <a href="viz-experiments.html">| Viz-experiments</a> 
+  <a href="amul.html">| Design Criitique</a> 
+  <a href="amul.html">| Amul Data story</a>
+  <a href="process.html">| Process</a>
+    </nav>
+
+    <main>
+    <img src="Home-images/image.png" width="30%" class="center" id="selfie">
+    <p id="intro"> <b>Namaste! &#128591</b> <br><br> I am Nivia Jain. <br>
+    And this is my very first webpage, handcrafted using HTML & CSS. <br>
+    Feel free to look at the explorations I have done as part of the Data Viz 3 module at NID-B with <a href="https://amitkaps.com/"> @amitkaps</a>
+    <br><br> Thank you! &#9829
+</p> 
+    </main>
+
+
+
+    <footer>
+        <h6> Made by Nivia Jain</h6>
+    </footer>
+</body>
