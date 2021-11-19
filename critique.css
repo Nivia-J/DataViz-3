@@ -1,41 +1,100 @@
-<!DOCTYPE html>
-<html>
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-<head>
-    <meta charset=“UTF-8”>
-    <title> My Project</title>
-    <link rel="stylesheet" href="newstylesheet.css">
+header {
+    background-color: #000000;
+    height: 90px;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color: rgb(31, 31, 31);
+    margin: 0 auto;
+    display:block;
+
+
+}
+nav a{
+    display: inline-block;
+    color: #969696;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-color: rgb(63, 14, 14);
+    font-family: helvetica;
+    margin: auto;
+    background-color: rgb(31, 31, 31);
+}
+
+nav a:hover {
+    background-color: #ffcc23;
+    color: black;
+    transition: 0.8s; ease-in-out;
+  }
+
+nav a:visited {
+    color: #7c6465;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(207, 233, 248);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    flex-shrink: 0;
+  }
+
+  #nivia {
+    padding-top: 20px;
+}
+
+.full-width {
+    width:100%;
+}
+
+.inside {
+    width:90%;
+}
+
+hr {
+    color: white;
+    border-color: white;
+    border-style: ridge;
+    margin-top: 0%;
+    padding-top: 0;
+}
+
+
+h2 {
+    text-align: center;
+    color: ;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+p {
+    padding-left:20px;
+}
+
+h3 {
+    margin-top: 0%;
+    padding-top: 0;
+    height: 5px;
     
-</head>
-
-<body>
-
-    <header> 
-
-        <img src="Home-images/j.png" width=300px id="nivia">
-    
-    </header>
-
-    <nav>
-  <a href="index.html">| Home</a> 
-  <a href="viz-experiments.html">| Viz-experiments</a> 
-  <a href="amul.html">| Design Criitique</a> 
-  <a href="amul.html">| Amul Data story</a>
-  <a href="process.html">| Process</a>
-    </nav>
-
-    <main>
-    <img src="Home-images/image.png" width="30%" class="center" id="selfie">
-    <p id="intro"> <b>Namaste! &#128591</b> <br><br> I am Nivia Jain. <br>
-    And this is my very first webpage, handcrafted using HTML & CSS. <br>
-    Feel free to look at the explorations I have done as part of the Data Viz 3 module at NID-B with <a href="https://amitkaps.com/"> @amitkaps</a>
-    <br><br> Thank you! &#9829
-</p> 
-    </main>
-
-
-
-    <footer>
-        <h6> Made by Nivia Jain</h6>
-    </footer>
-</body>
+}
