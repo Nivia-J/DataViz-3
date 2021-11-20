@@ -5,8 +5,9 @@ body {
 
 header {
     background-color: #000000;
-    height: 90px;
+    height: 70px;
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -14,6 +15,7 @@ nav {
     background-color: rgb(31, 31, 31);
     margin: 0 auto;
     display:block;
+    text-align: center;
 
 
 }
@@ -44,6 +46,10 @@ footer {
     background-color: black;
     width: 100%;
     padding-bottom: 0;
+}
+
+#nivia {
+    padding-top: 15px;
 }
 
 H6 {
@@ -197,9 +203,6 @@ img {
       display: block;
   }
 
-  #nivia {
-    padding-top: 20px;
-}
 
 #titlehead {
 padding-top: 20px;
@@ -222,4 +225,28 @@ h4 {
     padding-right: 20%;
     font-size: 24px;
     font-family: Helvetica, Arial,  sans-serif;
+}
+
+
+
+
+
+
+
+/* Process sheet styling  */
+.process-h2 {
+    text-align:left;
+    height: 20px;
+    margin-left: 20%;
+}
+.process-hr {
+    width:40%;
+    border:1px solid coral;
+    background-color: coral;
+    margin-left: 20%;
+}
+.process-center {
+    margin: 0 auto;
+    display: block;
+
 }
