@@ -45,7 +45,9 @@ nav a:visited {
 footer {
     background-color: black;
     width: 100%;
-    padding-bottom: 0;
+    position: absolute;
+    height: 50px;
+    flex-shrink: 0;
 }
 
 #nivia {
@@ -227,10 +229,14 @@ h4 {
     font-family: Helvetica, Arial,  sans-serif;
 }
 
-
-
-
-
+h6 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 100%;
+    font-family:'Courier New', Courier, monospace;
+}
 
 
 /* Process sheet styling  */
@@ -250,3 +256,5 @@ h4 {
     display: block;
 
 }
+
+
