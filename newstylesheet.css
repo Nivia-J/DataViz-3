@@ -118,7 +118,7 @@ img {
       font-family: Arial, Helvetica, sans-serif;
   }
 
-  p {
+  p,ul {
       padding-left: 20%;
       padding-right: 20%;
       font-size: 16px;
