@@ -167,8 +167,8 @@ img {
 
 .wrapper {
     display: grid;
-    width: 90%;
-    margin: 0 auto;
+    width: 95%;
+    margin-left: 5%;
     grid-template-columns: 40px 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-column-gap: 0px;
     grid-row-start: 0px;
@@ -284,7 +284,7 @@ h6 {
 }
 
 .amul-p-left {
-    font-size: 150%;
+    font-size: 120%;
     font-style: italic;
     margin-left:0 auto;
     padding-left: 20%;
